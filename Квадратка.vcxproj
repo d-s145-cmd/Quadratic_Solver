@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -127,15 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\BigDecimal.cpp" />
-    <ClCompile Include="src\QuadSolver.cpp" />
-    <ClCompile Include="src\UnsignedArith.cpp" />
-    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="BigDecimal.cpp" />
+    <ClCompile Include="QuadSolver.cpp" />
+    <ClCompile Include="UnsignedArith.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\BigDecimal.h" />
-    <ClInclude Include="include\QuadSolver.h" />
-    <ClInclude Include="include\UnsignedArith.h" />
+    <ClInclude Include="BigDecimal.h" />
+    <ClInclude Include="QuadSolver.h" />
+    <ClInclude Include="UnsignedArith.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
