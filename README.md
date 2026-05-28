@@ -31,12 +31,12 @@
 ```bash
 g++ -std=c++17 -O2 -o QuadraticSolver \
     main.cpp QuadSolver.cpp BigDecimal.cpp UnsignedArith.cpp
-###Windows (MinGW)
+Windows (MinGW)
 cmd
 Copy
 g++ -std=c++17 -O2 -o QuadraticSolver.exe ^
     main.cpp QuadSolver.cpp BigDecimal.cpp UnsignedArith.cpp
-###Windows (Visual Studio)
+Windows (Visual Studio)
 cmd
 Copy
 cl /std:c++17 /O2 /Fe:QuadraticSolver.exe ^
@@ -45,7 +45,7 @@ cl /std:c++17 /O2 /Fe:QuadraticSolver.exe ^
 cmd
 Copy
 build.bat
-##Использование
+Использование
 Интерактивный режим
 bash
 Copy
@@ -152,7 +152,7 @@ QuadraticSolver/
 │   ├── tests.txt
 │   └── expected_output.txt
 └── README.md
-##Алгоритм
+Алгоритм
 Парсинг: коэффициенты преобразуются в BigDecimal — структуру (digits, exponent10, sign)
 Дискриминант: D = b² − 4ac вычисляется точно через длинную арифметику
 Корни:
